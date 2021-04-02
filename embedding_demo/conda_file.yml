@@ -1,0 +1,24 @@
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.2
+  - pip:
+    - pandas
+    - matplotlib
+    - azureml-core
+    - azureml-defaults
+    - lightgbm
+    - mlflow
+    - azureml-mlflow
+    - numpy
+    - scikit-learn
+    #- gensim
+    - pytorch    
+    - seaborn
+    - nltk
+    - keras
+    #- tensorflow
+    #- lime
+    - transformers
+    - pycuda

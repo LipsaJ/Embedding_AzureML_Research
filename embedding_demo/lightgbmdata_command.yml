@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://azuremlsdk2.blob.core.windows.net/latest/commandJob.schema.json
+code:
+  local_path: source
+command: python ./python-guide/advanced_example.py
+  --data {inputs.corpus}
+environment: azureml:embedding_env:3
+compute:
+  target: azureml:ds3v2
+inputs:
+  corpus:
+    data: azureml:lightgbm_binary:1
+    mode: mount

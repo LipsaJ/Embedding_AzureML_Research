@@ -1,4 +1,4 @@
-# Azure ML Embedding Research
+# Azure ML Embedding Research project
 
 This is a Microsoft - UW sponsered student research project for Embedding on AzureML platform. This case study develops a methodology for operational lifecycle analysis across a ML project (data, training and inference) that maps key efficiency/power metrics, cost ($), carbon, and accuracy. This work compares the cost/benefit for different baseline architectures, and creation of public-facing GitHub samples. This will integrate with the cost/power/carbon telemetry grant work in AzureML, and help customers find the right tool for the job.
 
